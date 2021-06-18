@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(102, 240, 194);
+    font-family: 'Stint Ultra Condensed', cursive;
+}
+.header img{
+    width:100px;
+}
+.header{
+    background-color: brown;
+    font-size: 100px;
+    color:navy;
+}
+.maindiv{
+    border: olive 3px dashed;
+    background-color: rgb(88, 184, 120);
+    padding: 10px;
+    margin-top: 20px;
+
+}
+.maindiv label{
+    background-color: palegoldenrod;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 10px 10px 20px olivedrab;
+    font-size: 22px;
+}
+#camera, #result{
+    width:300px;
+    height:300px;
+    border: olive 3px dashed;
+    box-shadow: 15px 15px 25px olivedrab;
+}
+.maindiv button{
+    box-shadow: 15px 15px 25px rgb(27, 110, 116);
+    width:300;
+    border:rgb(143, 32, 32) 3px dotted;
+    font-size: 22px;
+}
+#outputer{
+    margin-bottom: 50px;
+
+}
+#outputer h4{
+    background-color: darkslategrey;
+    box-shadow: 10px 10px 20px olivedrab;
+    border-radius: 75px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: darkslategrey;
+}
+#outputer img{
+    width:70px;
+}
+#footer{
+    position: fixed;
+    bottom: 0;
+    background-color: darkslategrey;
+    width:100%;
+    text-align: center;
+    color: whitesmoke;
+ 
+    line-height:2;
+    font-size: 20px;
+}
+#objectname{
+    color:whitesmoke;
+    font-size: 20px;
+}
